@@ -18,11 +18,14 @@
             <artifactId>inpatient.app-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+		<!-- The web layer of openmrs -->
 		<dependency>
 			<groupId>org.openmrs.web</groupId>
 			<artifactId>openmrs-web</artifactId>
             <scope>provided</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.openmrs.web</groupId>
 			<artifactId>openmrs-web</artifactId>

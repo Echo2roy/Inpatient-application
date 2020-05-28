@@ -7,7 +7,7 @@
 	<name>${project.parent.name}</name>
 	<version>${project.parent.version}</version>
 	<package>org.openmrs.module.inpatient.app</package>
-	<author>Roy Esibe</author>
+	<author>Fonkou Prisca, Roy Esibe</author>
 	<description>
 			${project.parent.description}
 	</description>
@@ -19,6 +19,7 @@
 	
 	<require_version>${openmrsPlatformVersion}</require_version>
 
+	<!-- modules required for inpatient application -->
 	<require_modules>
 		<require_module version="${appframeworkVersion}">
 			org.openmrs.module.appframework
@@ -103,6 +104,8 @@
 	
 	<!-- Internationalization -->
 	<!-- All message codes should start with @MODULE_ID@.* -->
+
+	<!-- Message files for translation -->
 	<messages>
 		<lang>en</lang>
 		<file>messages.properties</file>

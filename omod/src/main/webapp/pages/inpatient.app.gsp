@@ -1,6 +1,6 @@
 <% ui.decorateWith("appui", "standardEmrPage") %>
 
-Hello, world.
+Hello, Prisca and Roy.
 
 <% if (context.authenticated) { %>
     And a special hello to you, $context.authenticatedUser.personName.fullName.
